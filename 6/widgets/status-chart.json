@@ -1,41 +1,41 @@
 [ {
-  "uid" : "17ba9ec2f1b1e3fc",
+  "uid" : "6d9a128ba38d75e9",
   "name" : "Home page - smoke test",
   "time" : {
-    "start" : 1649106437452,
-    "stop" : 1649106438131,
-    "duration" : 679
+    "start" : 1649110750407,
+    "stop" : 1649110750407,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "519535eb4dc9a376",
+  "uid" : "2df502601f9bbcec",
   "name" : "Home page - smoke test",
   "time" : {
-    "start" : 1649106438862,
-    "stop" : 1649106439505,
-    "duration" : 643
+    "start" : 1649110749784,
+    "stop" : 1649110749784,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "25a04c666a9191d0",
+  "uid" : "da9698e7d252f701",
   "name" : "Home page - smoke test",
   "time" : {
-    "start" : 1649106441517,
-    "stop" : 1649106442118,
-    "duration" : 601
+    "start" : 1649110750171,
+    "stop" : 1649110750171,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "a64cee9db9906ff8",
+  "uid" : "c2f1ec86a1090425",
   "name" : "Home page - smoke test",
   "time" : {
-    "start" : 1649106440114,
-    "stop" : 1649106440812,
-    "duration" : 698
+    "start" : 1649110750016,
+    "stop" : 1649110750016,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]
