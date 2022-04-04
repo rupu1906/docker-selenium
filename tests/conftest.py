@@ -11,8 +11,8 @@ def pytest_addoption(parser):
     parser.addoption("--platform", action="store", default="ios")
     parser.addoption("--browser", action="store", default="chrome")
     parser.addoption("--remote", action="store_true", default="False")
-    #parser.addoption("--host", action="store", default="127.0.0.1", type=str)
-    #parser.addoption("--port", action="store", default="4444", type=int)
+    parser.addoption("--host", action="store", default="127.0.0.1", type=str)
+    parser.addoption("--port", action="store", default="4444", type=int)
     parser.addoption("--locale", action="store", default="en_ca")
     parser.addoption(
         "--log-disable", action="append", default=[], help="ex: debug,info...."
