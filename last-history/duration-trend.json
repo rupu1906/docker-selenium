@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://rupu1906.github.io/docker-selenium/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 607
+  }
+}, {
   "buildOrder" : 11,
   "reportUrl" : "https://rupu1906.github.io/docker-selenium/11/",
   "reportName" : "Allure Report with history",

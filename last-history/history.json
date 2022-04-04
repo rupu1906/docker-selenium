@@ -2,13 +2,23 @@
   "0e03a480debcb54dd0ad4bed14f612d2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "b3f0881205416860",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/1//#testresult/b3f0881205416860",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa14dcffd30>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649108545068,
+        "stop" : 1649108545068,
+        "duration" : 0
+      }
+    }, {
       "uid" : "9b7039273e569dcf",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/9b7039273e569dcf",
       "status" : "passed",
@@ -106,13 +116,23 @@
   "4c6a26788916d97b0c591def5d62e104" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "1fc1fcc387eb4cbe",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/1//#testresult/1fc1fcc387eb4cbe",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa14c8c61d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649108545433,
+        "stop" : 1649108545433,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2ee38d395c1dd3a1",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/2ee38d395c1dd3a1",
       "status" : "passed",
@@ -210,13 +230,23 @@
   "b2e57dac307fb5f5a232440dbae3faf9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "e135502b6f2567c",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/1//#testresult/e135502b6f2567c",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa14eda1bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649108545242,
+        "stop" : 1649108545242,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b877a978ea236190",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/b877a978ea236190",
       "status" : "passed",
@@ -314,13 +344,23 @@
   "65fd2b4dfcf9c1e5ba26298719a99a88" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "9f9b4a8cba06bec",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/1//#testresult/9f9b4a8cba06bec",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa14f0008b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649108544826,
+        "stop" : 1649108544826,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3910b510ea48b407",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/3910b510ea48b407",
       "status" : "passed",
