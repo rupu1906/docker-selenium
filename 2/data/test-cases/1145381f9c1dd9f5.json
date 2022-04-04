@@ -1,0 +1,112 @@
+{
+  "uid" : "1145381f9c1dd9f5",
+  "name" : "Home page - smoke test",
+  "fullName" : "tests.ui.test_search.TestWeb#test_homepage_title13",
+  "historyId" : "4c6a26788916d97b0c591def5d62e104",
+  "time" : {
+    "start" : 1649105573035,
+    "stop" : 1649105573035,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "ValueError: no option named '--host'",
+  "statusTrace" : "self = <_pytest.config.Config object at 0x7f6c7b4a8850>, name = '--host'\ndefault = <NOTSET>, skip = False\n\n    def getoption(self, name: str, default=notset, skip: bool = False):\n        \"\"\"Return command line option value.\n    \n        :param name: Name of the option.  You may also specify\n            the literal ``--OPT`` option instead of the \"dest\" option name.\n        :param default: Default value if no option of that name exists.\n        :param skip: If True, raise pytest.skip if option does not exists\n            or has a None value.\n        \"\"\"\n        name = self._opt2dest.get(name, name)\n        try:\n>           val = getattr(self.option, name)\nE           AttributeError: 'Namespace' object has no attribute '--host'\n\n/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/_pytest/config/__init__.py:1463: AttributeError\n\nThe above exception was the direct cause of the following exception:\n\nrequest = <SubRequest 'web_setup' for <Function test_homepage_title13>>\nbrowser = 'chrome'\n\n    @pytest.fixture\n    def web_setup(request, browser):\n>       host = request.config.getoption(\"--host\")\nE       ValueError: no option named '--host'\n\ntests/conftest.py:39: ValueError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649105572848,
+      "stop" : 1649105572912,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1649105573035,
+      "stop" : 1649105573035,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1649105573035,
+      "stop" : 1649105573035,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "ValueError: no option named '--host'\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/pluggy/_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/_pytest/fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/_pytest/fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/home/runner/work/docker-selenium/docker-selenium/tests/conftest.py\", line 39, in web_setup\n    host = request.config.getoption(\"--host\")\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/_pytest/config/__init__.py\", line 1474, in getoption\n    raise ValueError(f\"no option named {name!r}\") from e\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az290-11"
+  }, {
+    "name" : "thread",
+    "value" : "3520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "1145381f9c1dd9f5.json",
+  "parameterValues" : [ ]
+}
