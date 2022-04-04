@@ -1,0 +1,133 @@
+{
+  "uid" : "e28ca54c453a945b",
+  "name" : "Home page - smoke test",
+  "fullName" : "tests.ui.test_search.TestWeb#test_homepage_title",
+  "historyId" : "65fd2b4dfcf9c1e5ba26298719a99a88",
+  "time" : {
+    "start" : 1649105743161,
+    "stop" : 1649105743161,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'webdriver' is not defined",
+  "statusTrace" : "request = <SubRequest 'web_setup' for <Function test_homepage_title>>\nbrowser = 'chrome'\n\n    @pytest.fixture\n    def web_setup(request, browser):\n        host = request.config.getoption(\"--host\")\n        port = request.config.getoption(\"--port\")\n        caps = request.config.getoption(\"--browser\")\n        if request.config.getoption(\"--remote\") != \"False\":\n>           driver = webdriver.Remote(\n                f\"http://{host}:{port}/wd/hub\",\n                desired_capabilities=DriverExtensions.get_remote_browser(caps),\n            )\nE           NameError: name 'webdriver' is not defined\n\ntests/conftest.py:43: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649105743161,
+      "stop" : 1649105743223,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1649105743223,
+      "stop" : 1649105743223,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'webdriver' is not defined\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/pluggy/_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/_pytest/fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/_pytest/fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/home/runner/work/docker-selenium/docker-selenium/tests/conftest.py\", line 43, in web_setup\n    driver = webdriver.Remote(\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1649105743223,
+      "stop" : 1649105743223,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az290-11"
+  }, {
+    "name" : "thread",
+    "value" : "3526-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "92d52fe764934efa",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/2//#testresult/92d52fe764934efa",
+        "status" : "broken",
+        "statusDetails" : "ValueError: no option named '--host'",
+        "time" : {
+          "start" : 1649105572847,
+          "stop" : 1649105572847,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "e28ca54c453a945b.json",
+  "parameterValues" : [ ]
+}
