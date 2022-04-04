@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run tests
-        run: python -m pytest tests --alluredir=allure-results
+        run: python -m pytest tests --alluredir=allure-results --remote
         continue-on-error: true
 
       - name: Get Allure history
