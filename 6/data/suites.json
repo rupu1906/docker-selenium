@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.ui",
+    "children" : [ {
+      "name" : "test_search",
+      "children" : [ {
+        "name" : "TestWeb",
+        "children" : [ {
+          "name" : "Home page - smoke test",
+          "uid" : "17ba9ec2f1b1e3fc",
+          "parentUid" : "9d39e17b078328105733c36c53d41d21",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649106437452,
+            "stop" : 1649106438131,
+            "duration" : 679
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Home page - smoke test",
+          "uid" : "519535eb4dc9a376",
+          "parentUid" : "9d39e17b078328105733c36c53d41d21",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649106438862,
+            "stop" : 1649106439505,
+            "duration" : 643
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Home page - smoke test",
+          "uid" : "a64cee9db9906ff8",
+          "parentUid" : "9d39e17b078328105733c36c53d41d21",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649106440114,
+            "stop" : 1649106440812,
+            "duration" : 698
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Home page - smoke test",
+          "uid" : "25a04c666a9191d0",
+          "parentUid" : "9d39e17b078328105733c36c53d41d21",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649106441517,
+            "stop" : 1649106442118,
+            "duration" : 601
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9d39e17b078328105733c36c53d41d21"
+      } ],
+      "uid" : "cf35d9255ebd1144104b0ae9c2fc2ad7"
+    } ],
+    "uid" : "3965134f6f8c1be9f46795103934f428"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "17ba9ec2f1b1e3fc",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649106437452,
+    "stop" : 1649106438131,
+    "duration" : 679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "519535eb4dc9a376",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649106438862,
+    "stop" : 1649106439505,
+    "duration" : 643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25a04c666a9191d0",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649106441517,
+    "stop" : 1649106442118,
+    "duration" : 601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a64cee9db9906ff8",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649106440114,
+    "stop" : 1649106440812,
+    "duration" : 698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
