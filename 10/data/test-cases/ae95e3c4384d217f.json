@@ -1,0 +1,205 @@
+{
+  "uid" : "ae95e3c4384d217f",
+  "name" : "Home page - smoke test",
+  "fullName" : "tests.ui.test_search.TestWeb#test_homepage_title12",
+  "historyId" : "b2e57dac307fb5f5a232440dbae3faf9",
+  "time" : {
+    "start" : 1649107867070,
+    "stop" : 1649107867710,
+    "duration" : 640
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1649107866606,
+      "stop" : 1649107867069,
+      "duration" : 463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1649107866606,
+      "stop" : 1649107866606,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649107863357,
+      "stop" : 1649107863418,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "web_setup::0",
+    "time" : {
+      "start" : 1649107867710,
+      "stop" : 1649107867846,
+      "duration" : 136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az292-638"
+  }, {
+    "name" : "thread",
+    "value" : "3514-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "b61390b1999cb316",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/9//#testresult/b61390b1999cb316",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649107517690,
+          "stop" : 1649107518405,
+          "duration" : 715
+        }
+      }, {
+        "uid" : "c1be31e5e765426",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/8//#testresult/c1be31e5e765426",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x56466e658ad3 <unknown>\n#1 0x56466e3b8568 <unknown>\n#2 0x56466e3dbb37 <unknown>\n#3 0x56466e3d723a <unknown>\n#4 0x56466e4122ba <unknown>\n#5 0x56466e40c4e3 <unknown>\n#6 0x56466e3e1d1a <unknown>\n#7 0x56466e3e2e75 <unknown>\n#8 0x56466e686efd <unknown>\n#9 0x56466e6a019b <unknown>\n#10 0x56466e688c65 <unknown>\n#11 0x56466e6a0ec8 <unknown>\n#12 0x56466e67c360 <unknown>\n#13 0x56466e6bca68 <unknown>\n#14 0x56466e6bcbe8 <unknown>\n#15 0x56466e6d67fd <unknown>\n#16 0x7fe28fe92609 <unknown>",
+        "time" : {
+          "start" : 1649107303228,
+          "stop" : 1649107303228,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "11fd7c29fdaadffd",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/7//#testresult/11fd7c29fdaadffd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649106455329,
+          "stop" : 1649106456115,
+          "duration" : 786
+        }
+      }, {
+        "uid" : "a64cee9db9906ff8",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/6//#testresult/a64cee9db9906ff8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649106440114,
+          "stop" : 1649106440812,
+          "duration" : 698
+        }
+      }, {
+        "uid" : "c097bb6db4eafbc5",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/5//#testresult/c097bb6db4eafbc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649106387398,
+          "stop" : 1649106388604,
+          "duration" : 1206
+        }
+      }, {
+        "uid" : "89b2b62a7549ec0a",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/4//#testresult/89b2b62a7549ec0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649105937397,
+          "stop" : 1649105940554,
+          "duration" : 3157
+        }
+      }, {
+        "uid" : "5a9c3516514d41c6",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/3//#testresult/5a9c3516514d41c6",
+        "status" : "broken",
+        "statusDetails" : "NameError: name 'webdriver' is not defined",
+        "time" : {
+          "start" : 1649105743277,
+          "stop" : 1649105743277,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "26d52a3fe7e0b272",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/2//#testresult/26d52a3fe7e0b272",
+        "status" : "broken",
+        "statusDetails" : "ValueError: no option named '--host'",
+        "time" : {
+          "start" : 1649105573008,
+          "stop" : 1649105573008,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "ae95e3c4384d217f.json",
+  "parameterValues" : [ ]
+}
