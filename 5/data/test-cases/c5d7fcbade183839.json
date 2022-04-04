@@ -1,0 +1,159 @@
+{
+  "uid" : "c5d7fcbade183839",
+  "name" : "Home page - smoke test",
+  "fullName" : "tests.ui.test_search.TestWeb#test_homepage_title",
+  "historyId" : "65fd2b4dfcf9c1e5ba26298719a99a88",
+  "time" : {
+    "start" : 1649106384201,
+    "stop" : 1649106384935,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1649106382739,
+      "stop" : 1649106384185,
+      "duration" : 1446
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1649106382739,
+      "stop" : 1649106382739,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649106382665,
+      "stop" : 1649106382739,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "web_setup::0",
+    "time" : {
+      "start" : 1649106384936,
+      "stop" : 1649106385055,
+      "duration" : 119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az213-733"
+  }, {
+    "name" : "thread",
+    "value" : "3612-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e986e97d201592be",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/4//#testresult/e986e97d201592be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649105934700,
+          "stop" : 1649105935434,
+          "duration" : 734
+        }
+      }, {
+        "uid" : "e28ca54c453a945b",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/3//#testresult/e28ca54c453a945b",
+        "status" : "broken",
+        "statusDetails" : "NameError: name 'webdriver' is not defined",
+        "time" : {
+          "start" : 1649105743161,
+          "stop" : 1649105743161,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "92d52fe764934efa",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/2//#testresult/92d52fe764934efa",
+        "status" : "broken",
+        "statusDetails" : "ValueError: no option named '--host'",
+        "time" : {
+          "start" : 1649105572847,
+          "stop" : 1649105572847,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "c5d7fcbade183839.json",
+  "parameterValues" : [ ]
+}
