@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=42.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+    ]
+markers = [
+    "positive: marker for positive tests",
+    "negative: marker for negative tests",
+]    
+
+[tool.black]
+profile = "black"
+line-length = 79
+preview = true
+
+[tool.pylint.format]
+max-line-length = 79
+
+[tool.pylint.messages_control]
+disable = [
+  "missing-docstring",
+  "unused-argument",
+  "too-few-public-methods",
+  "duplicate-code",
+  "too-many-instance-attributes",
+  "no-else-return",
+  "logging-fstring-interpolation",
+  "broad-except",
+  "too-many-return-statements",
+  "invalid-name",
+  "super-init-not-called",
+  ]
+
+[tool.pylint.MASTER]
+ignore = [".git", ".tox", "__pycache__", ".env", ".git", "build", ".eggs","*.egg"]
+
+[tool.pylint.BASIC]
+good-names = ["f", "e","id"]
+class-naming-style = "PascalCase"
+
+[tool.pylint.LOGGING]
+logging-format-style = "new"
