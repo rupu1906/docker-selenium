@@ -1,10 +1,10 @@
 import pytest
-from src.PracticeTest.config.configuration_reader import ConfigurationReader
-from src.AffirmTest.helpers.driver import DriverExtensions
+from src.PracticeTests.config.configuration_reader import ConfigurationReader
+from src.PracticeTests.helpers.driver import DriverExtensions
 
 
 config = ConfigurationReader()
-platform_config = config.read_json("src/AffirmTest", "config.json")
+platform_config = config.read_json("src/PracticeTests", "config.json")
 web_config = platform_config.get("Web")
 
 def pytest_addoption(parser):
