@@ -9,13 +9,13 @@
       "total" : 10
     },
     "items" : [ {
-      "uid" : "dd74c5f47e5c83ba",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/12//#testresult/dd74c5f47e5c83ba",
+      "uid" : "9b7039273e569dcf",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/9b7039273e569dcf",
       "status" : "passed",
       "time" : {
-        "start" : 1649108212240,
-        "stop" : 1649108212925,
-        "duration" : 685
+        "start" : 1649108211796,
+        "stop" : 1649108212397,
+        "duration" : 601
       }
     }, {
       "uid" : "8ca81a019efdc452",
@@ -113,13 +113,13 @@
       "total" : 10
     },
     "items" : [ {
-      "uid" : "4122d091f7e7a9bf",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/12//#testresult/4122d091f7e7a9bf",
+      "uid" : "2ee38d395c1dd3a1",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/2ee38d395c1dd3a1",
       "status" : "passed",
       "time" : {
-        "start" : 1649108214974,
-        "stop" : 1649108215566,
-        "duration" : 592
+        "start" : 1649108214302,
+        "stop" : 1649108217073,
+        "duration" : 2771
       }
     }, {
       "uid" : "eec675ba93b865fd",
@@ -217,13 +217,13 @@
       "total" : 10
     },
     "items" : [ {
-      "uid" : "330444d083f6dd2b",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/12//#testresult/330444d083f6dd2b",
+      "uid" : "b877a978ea236190",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/b877a978ea236190",
       "status" : "passed",
       "time" : {
-        "start" : 1649108213621,
-        "stop" : 1649108214283,
-        "duration" : 662
+        "start" : 1649108212993,
+        "stop" : 1649108213714,
+        "duration" : 721
       }
     }, {
       "uid" : "ae95e3c4384d217f",
@@ -321,13 +321,13 @@
       "total" : 10
     },
     "items" : [ {
-      "uid" : "381bd97f15486681",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/12//#testresult/381bd97f15486681",
+      "uid" : "3910b510ea48b407",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/3910b510ea48b407",
       "status" : "passed",
       "time" : {
-        "start" : 1649108210834,
-        "stop" : 1649108211545,
-        "duration" : 711
+        "start" : 1649108210402,
+        "stop" : 1649108211064,
+        "duration" : 662
       }
     }, {
       "uid" : "43f664244e77d354",

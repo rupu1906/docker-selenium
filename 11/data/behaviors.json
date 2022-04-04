@@ -2,38 +2,12 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Home page - smoke test",
-    "uid" : "381bd97f15486681",
+    "uid" : "3910b510ea48b407",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1649108210834,
-      "stop" : 1649108211545,
-      "duration" : 711
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Home page - smoke test",
-    "uid" : "dd74c5f47e5c83ba",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1649108212240,
-      "stop" : 1649108212925,
-      "duration" : 685
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Home page - smoke test",
-    "uid" : "330444d083f6dd2b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1649108213621,
-      "stop" : 1649108214283,
+      "start" : 1649108210402,
+      "stop" : 1649108211064,
       "duration" : 662
     },
     "flaky" : false,
@@ -41,13 +15,39 @@
     "parameters" : [ ]
   }, {
     "name" : "Home page - smoke test",
-    "uid" : "4122d091f7e7a9bf",
+    "uid" : "9b7039273e569dcf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1649108214974,
-      "stop" : 1649108215566,
-      "duration" : 592
+      "start" : 1649108211796,
+      "stop" : 1649108212397,
+      "duration" : 601
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Home page - smoke test",
+    "uid" : "b877a978ea236190",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649108212993,
+      "stop" : 1649108213714,
+      "duration" : 721
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Home page - smoke test",
+    "uid" : "2ee38d395c1dd3a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649108214302,
+      "stop" : 1649108217073,
+      "duration" : 2771
     },
     "flaky" : false,
     "newFailed" : false,

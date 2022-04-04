@@ -1,12 +1,12 @@
 {
-  "uid" : "381bd97f15486681",
+  "uid" : "3910b510ea48b407",
   "name" : "Home page - smoke test",
   "fullName" : "tests.ui.test_search.TestWeb#test_homepage_title",
   "historyId" : "65fd2b4dfcf9c1e5ba26298719a99a88",
   "time" : {
-    "start" : 1649108210834,
-    "stop" : 1649108211545,
-    "duration" : 711
+    "start" : 1649108210402,
+    "stop" : 1649108211064,
+    "duration" : 662
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1649108209435,
-      "stop" : 1649108209498,
-      "duration" : 63
+      "start" : 1649108209289,
+      "stop" : 1649108209353,
+      "duration" : 64
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "web_setup",
     "time" : {
-      "start" : 1649108209499,
-      "stop" : 1649108210819,
-      "duration" : 1320
+      "start" : 1649108209354,
+      "stop" : 1649108210398,
+      "duration" : 1044
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "browser",
     "time" : {
-      "start" : 1649108209499,
-      "stop" : 1649108209499,
+      "start" : 1649108209354,
+      "stop" : 1649108209354,
       "duration" : 0
     },
     "status" : "passed",
@@ -60,9 +60,9 @@
   "afterStages" : [ {
     "name" : "web_setup::0",
     "time" : {
-      "start" : 1649108211546,
-      "stop" : 1649108211642,
-      "duration" : 96
+      "start" : 1649108211064,
+      "stop" : 1649108211193,
+      "duration" : 129
     },
     "status" : "passed",
     "steps" : [ ],
@@ -87,10 +87,10 @@
     "value" : "TestWeb"
   }, {
     "name" : "host",
-    "value" : "fv-az213-733"
+    "value" : "fv-az292-638"
   }, {
     "name" : "thread",
-    "value" : "3630-MainThread"
+    "value" : "3519-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -209,6 +209,6 @@
     },
     "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
   },
-  "source" : "381bd97f15486681.json",
+  "source" : "3910b510ea48b407.json",
   "parameterValues" : [ ]
 }
