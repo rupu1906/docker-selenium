@@ -1,0 +1,15 @@
+{
+   "Web": {
+    "supported_browsers": [
+      "chrome",
+      "firefox",
+      "edge"
+    ],
+    "supported_locale": [
+      "en_ca",
+      "fr_ca"
+    ],
+    "headless_mode": false,
+    "timeout": 10
+  }
+}
