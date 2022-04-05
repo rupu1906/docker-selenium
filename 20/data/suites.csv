@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Apr 05 13:34:25 GMT 2022","Tue Apr 05 13:34:26 GMT 2022","654","tests.ui","test_search","TestWeb","","","Home page - smoke test",""
-"passed","Tue Apr 05 13:34:27 GMT 2022","Tue Apr 05 13:34:27 GMT 2022","614","tests.ui","test_search","TestWeb","","","Home page - smoke test",""
-"failed","Tue Apr 05 13:34:28 GMT 2022","Tue Apr 05 13:34:29 GMT 2022","712","tests.ui","test_search","TestWeb","","","Home page - smoke test",""
+"broken","Tue Apr 05 16:02:11 GMT 2022","Tue Apr 05 16:02:11 GMT 2022","0","tests.ui","test_search","TestWeb","","","Home page - smoke test",""
+"broken","Tue Apr 05 16:02:12 GMT 2022","Tue Apr 05 16:02:12 GMT 2022","0","tests.ui","test_search","TestWeb","","","Home page - smoke test",""
+"broken","Tue Apr 05 16:02:11 GMT 2022","Tue Apr 05 16:02:11 GMT 2022","0","tests.ui","test_search","TestWeb","","","Home page - smoke test",""
