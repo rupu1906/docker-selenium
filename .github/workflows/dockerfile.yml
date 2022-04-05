@@ -19,7 +19,9 @@ jobs:
         run: docker compose -f "docker-compose-v2.yml" up -d
       
       - name: Remove docker container
-        run: docker-compose rm -f
+        run: |
+          docker-compose rm -f
+          docker system prune    
         
       - name: Get Allure history
         uses: actions/checkout@v2
