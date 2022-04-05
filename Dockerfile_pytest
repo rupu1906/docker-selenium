@@ -4,13 +4,15 @@ FROM python:3.10
 WORKDIR /TESTING/
 
 RUN python3.10 -m venv venv 
-RUN . venv/bin/activate
+RUN  .\venv\Scripts\activate
 
 RUN python -m pip install --upgrade pip
 
 COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+
 COPY . .
+
+RUN pip install -r requirements.txt
 
 CMD ["python","-m","pytest","tests","--alluredir=reports","--host","chrome","--remote"]
 
