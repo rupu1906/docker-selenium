@@ -57,6 +57,4 @@ def web_setup(request, browser):
             name="Test failed",
             attachment_type=AttachmentType.PNG,
         )
-    driver.close()
-    time.sleep(1)
     driver.quit()
