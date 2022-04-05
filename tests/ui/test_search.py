@@ -18,8 +18,3 @@ class TestWeb(WebBaseClass):
     @allure.title("Home page - smoke test")
     def test_homepage_title(self):
         self.driver.get("https://www.google.com")
-
-    @allure.title("Home page - smoke test")
-    def test_homepage_title(self):
-        self.driver.get("https://www.google.com")
-        assert False
