@@ -2,38 +2,22 @@ name: Integration Tests
 
 on:
   push:
-    branches: [main]
+    branches: 
+      - master
 
 jobs:
   Integration-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-     
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.x
+
       - name: Create docker container
-        env:
-          COMPOSE_INTERACTIVE_NO_CLI: 1
         run: docker compose -f "docker-compose-v2.yml" up -d
- 
-      - name: Check running containers
-        run: docker-compose ps -a
-
-      - name: Test with pytest
-        env:
-          COMPOSE_INTERACTIVE_NO_CLI: 1
-        run: |
-          docker compose -f "docker-compose-v2.yml" exec pytest bash
-          ls 
-          pip install pytest
-          pip install -r requirements.txt
-          
-          
-      - name: Test with pytest
-        env:
-          COMPOSE_INTERACTIVE_NO_CLI: 1
-        run: python3 -m pytest tests --host “chrome” --remote --alluredir=allure-reports
-
-        
+     
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
@@ -46,7 +30,7 @@ jobs:
         uses: simple-elf/allure-report-action@master
         if: always()
         with:
-          allure_results: allure-results
+          allure_results: reports
           allure_history: allure-history
 
       - name: Deploy to GitHub Pages
@@ -54,4 +38,3 @@ jobs:
         with:
           branch: gh-pages
           folder: allure-history
-
