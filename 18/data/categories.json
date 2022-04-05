@@ -1,5 +1,60 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa6068e50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "1ed6dbba97766069",
+        "parentUid" : "1d5ca4a1c1b2917b7632cb929941910d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649173130729,
+          "stop" : 1649173130729,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d5ca4a1c1b2917b7632cb929941910d"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa38b6f80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "8c59cc71b6ac3836",
+        "parentUid" : "158f499e7f0e56f3f364a87c4fccb675",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649173131014,
+          "stop" : 1649173131014,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "158f499e7f0e56f3f364a87c4fccb675"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa4d65de0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "edf879c1c060081a",
+        "parentUid" : "27d50cce9299108592cfc6cc53a17304",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649173131329,
+          "stop" : 1649173131329,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27d50cce9299108592cfc6cc53a17304"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

@@ -2,13 +2,23 @@
   "0e03a480debcb54dd0ad4bed14f612d2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 13,
+      "broken" : 14,
       "skipped" : 0,
       "passed" : 13,
       "unknown" : 0,
-      "total" : 26
+      "total" : 27
     },
     "items" : [ {
+      "uid" : "1ed6dbba97766069",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/18//#testresult/1ed6dbba97766069",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa6068e50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173130729,
+        "stop" : 1649173130729,
+        "duration" : 0
+      }
+    }, {
       "uid" : "4672f4fbbebe6a39",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/15//#testresult/4672f4fbbebe6a39",
       "status" : "broken",
@@ -188,16 +198,6 @@
         "start" : 1649107516146,
         "stop" : 1649107516917,
         "duration" : 771
-      }
-    }, {
-      "uid" : "3b99115c2c81a078",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/8//#testresult/3b99115c2c81a078",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x560523969ad3 <unknown>\n#1 0x5605236c9568 <unknown>\n#2 0x5605236ecb37 <unknown>\n#3 0x5605236e823a <unknown>\n#4 0x5605237232ba <unknown>\n#5 0x56052371d4e3 <unknown>\n#6 0x5605236f2d1a <unknown>\n#7 0x5605236f3e75 <unknown>\n#8 0x560523997efd <unknown>\n#9 0x5605239b119b <unknown>\n#10 0x560523999c65 <unknown>\n#11 0x5605239b1ec8 <unknown>\n#12 0x56052398d360 <unknown>\n#13 0x5605239cda68 <unknown>\n#14 0x5605239cdbe8 <unknown>\n#15 0x5605239e77fd <unknown>\n#16 0x7f277e044609 <unknown>",
-      "time" : {
-        "start" : 1649107302485,
-        "stop" : 1649107302485,
-        "duration" : 0
       }
     } ]
   },
@@ -384,13 +384,23 @@
   "b2e57dac307fb5f5a232440dbae3faf9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 13,
+      "broken" : 14,
       "skipped" : 0,
       "passed" : 13,
       "unknown" : 0,
-      "total" : 26
+      "total" : 27
     },
     "items" : [ {
+      "uid" : "8c59cc71b6ac3836",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/18//#testresult/8c59cc71b6ac3836",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa38b6f80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173131014,
+        "stop" : 1649173131014,
+        "duration" : 0
+      }
+    }, {
       "uid" : "e0cb9def87b0cf4f",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/15//#testresult/e0cb9def87b0cf4f",
       "status" : "broken",
@@ -571,28 +581,28 @@
         "stop" : 1649107518405,
         "duration" : 715
       }
-    }, {
-      "uid" : "c1be31e5e765426",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/8//#testresult/c1be31e5e765426",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x56466e658ad3 <unknown>\n#1 0x56466e3b8568 <unknown>\n#2 0x56466e3dbb37 <unknown>\n#3 0x56466e3d723a <unknown>\n#4 0x56466e4122ba <unknown>\n#5 0x56466e40c4e3 <unknown>\n#6 0x56466e3e1d1a <unknown>\n#7 0x56466e3e2e75 <unknown>\n#8 0x56466e686efd <unknown>\n#9 0x56466e6a019b <unknown>\n#10 0x56466e688c65 <unknown>\n#11 0x56466e6a0ec8 <unknown>\n#12 0x56466e67c360 <unknown>\n#13 0x56466e6bca68 <unknown>\n#14 0x56466e6bcbe8 <unknown>\n#15 0x56466e6d67fd <unknown>\n#16 0x7fe28fe92609 <unknown>",
-      "time" : {
-        "start" : 1649107303228,
-        "stop" : 1649107303228,
-        "duration" : 0
-      }
     } ]
   },
   "65fd2b4dfcf9c1e5ba26298719a99a88" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 13,
+      "broken" : 14,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 26
+      "total" : 27
     },
     "items" : [ {
+      "uid" : "edf879c1c060081a",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/18//#testresult/edf879c1c060081a",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa4d65de0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173131329,
+        "stop" : 1649173131329,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3d399bfcbf8242fa",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/15//#testresult/3d399bfcbf8242fa",
       "status" : "broken",
@@ -774,16 +784,6 @@
         "start" : 1649107514593,
         "stop" : 1649107515358,
         "duration" : 765
-      }
-    }, {
-      "uid" : "90364937b93ecdd9",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/8//#testresult/90364937b93ecdd9",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x559891f03ad3 <unknown>\n#1 0x559891c63568 <unknown>\n#2 0x559891c86b37 <unknown>\n#3 0x559891c8223a <unknown>\n#4 0x559891cbd2ba <unknown>\n#5 0x559891cb74e3 <unknown>\n#6 0x559891c8cd1a <unknown>\n#7 0x559891c8de75 <unknown>\n#8 0x559891f31efd <unknown>\n#9 0x559891f4b19b <unknown>\n#10 0x559891f33c65 <unknown>\n#11 0x559891f4bec8 <unknown>\n#12 0x559891f27360 <unknown>\n#13 0x559891f67a68 <unknown>\n#14 0x559891f67be8 <unknown>\n#15 0x559891f817fd <unknown>\n#16 0x7fabf5d65609 <unknown>",
-      "time" : {
-        "start" : 1649107300763,
-        "stop" : 1649107300763,
-        "duration" : 0
       }
     } ]
   }
