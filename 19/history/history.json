@@ -2,13 +2,92 @@
   "0e03a480debcb54dd0ad4bed14f612d2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 15,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 20
+      "total" : 28
     },
     "items" : [ {
+      "uid" : "1748c91517fa2aa1",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/19//#testresult/1748c91517fa2aa1",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f65b9e05210>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173716407,
+        "stop" : 1649173716407,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ed6dbba97766069",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/18//#testresult/1ed6dbba97766069",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa6068e50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173130729,
+        "stop" : 1649173130729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4672f4fbbebe6a39",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/15//#testresult/4672f4fbbebe6a39",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1481374e50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649172350238,
+        "stop" : 1649172350238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "50379df99b9a0eb",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/13//#testresult/50379df99b9a0eb",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb21a3e4e50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649170174976,
+        "stop" : 1649170174976,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "accf06d18493b36",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/accf06d18493b36",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fba64726620>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649167885162,
+        "stop" : 1649167885162,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44ca7c89755b90c4",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/10//#testresult/44ca7c89755b90c4",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b14fca860>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649166993086,
+        "stop" : 1649166993086,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7169c05b242a5ef",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/9//#testresult/b7169c05b242a5ef",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f04e8582680>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649166018410,
+        "stop" : 1649166018410,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b99cf69d7d6efac7",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/20//#testresult/b99cf69d7d6efac7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649165665784,
+        "stop" : 1649165666438,
+        "duration" : 654
+      }
+    }, {
       "uid" : "d48ef0ca2afb7bd6",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/19//#testresult/d48ef0ca2afb7bd6",
       "status" : "passed",
@@ -120,81 +199,6 @@
         "start" : 1649107865819,
         "stop" : 1649107866508,
         "duration" : 689
-      }
-    }, {
-      "uid" : "67b1be647300e6cb",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/9//#testresult/67b1be647300e6cb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649107516146,
-        "stop" : 1649107516917,
-        "duration" : 771
-      }
-    }, {
-      "uid" : "3b99115c2c81a078",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/8//#testresult/3b99115c2c81a078",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x560523969ad3 <unknown>\n#1 0x5605236c9568 <unknown>\n#2 0x5605236ecb37 <unknown>\n#3 0x5605236e823a <unknown>\n#4 0x5605237232ba <unknown>\n#5 0x56052371d4e3 <unknown>\n#6 0x5605236f2d1a <unknown>\n#7 0x5605236f3e75 <unknown>\n#8 0x560523997efd <unknown>\n#9 0x5605239b119b <unknown>\n#10 0x560523999c65 <unknown>\n#11 0x5605239b1ec8 <unknown>\n#12 0x56052398d360 <unknown>\n#13 0x5605239cda68 <unknown>\n#14 0x5605239cdbe8 <unknown>\n#15 0x5605239e77fd <unknown>\n#16 0x7f277e044609 <unknown>",
-      "time" : {
-        "start" : 1649107302485,
-        "stop" : 1649107302485,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "a10e1e421c6ce67e",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/7//#testresult/a10e1e421c6ce67e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106453830,
-        "stop" : 1649106454645,
-        "duration" : 815
-      }
-    }, {
-      "uid" : "519535eb4dc9a376",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/6//#testresult/519535eb4dc9a376",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106438862,
-        "stop" : 1649106439505,
-        "duration" : 643
-      }
-    }, {
-      "uid" : "2899f859d763f88e",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/5//#testresult/2899f859d763f88e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106385753,
-        "stop" : 1649106386612,
-        "duration" : 859
-      }
-    }, {
-      "uid" : "f2d5d8a7352c9b21",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/4//#testresult/f2d5d8a7352c9b21",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649105936058,
-        "stop" : 1649105936714,
-        "duration" : 656
-      }
-    }, {
-      "uid" : "ae8690abc6009f2c",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/3//#testresult/ae8690abc6009f2c",
-      "status" : "broken",
-      "statusDetails" : "NameError: name 'webdriver' is not defined",
-      "time" : {
-        "start" : 1649105743271,
-        "stop" : 1649105743271,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "21b9749b25acf1f4",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/2//#testresult/21b9749b25acf1f4",
-      "status" : "broken",
-      "statusDetails" : "ValueError: no option named '--host'",
-      "time" : {
-        "start" : 1649105572980,
-        "stop" : 1649105572980,
-        "duration" : 0
       }
     } ]
   },
@@ -381,13 +385,92 @@
   "b2e57dac307fb5f5a232440dbae3faf9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 15,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 20
+      "total" : 28
     },
     "items" : [ {
+      "uid" : "c90c21a3d6195101",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/19//#testresult/c90c21a3d6195101",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f65b9b1b070>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173716625,
+        "stop" : 1649173716625,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8c59cc71b6ac3836",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/18//#testresult/8c59cc71b6ac3836",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa38b6f80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173131014,
+        "stop" : 1649173131014,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e0cb9def87b0cf4f",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/15//#testresult/e0cb9def87b0cf4f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f147ebdb4c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649172350467,
+        "stop" : 1649172350467,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "341e329e873da154",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/13//#testresult/341e329e873da154",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb217c3af80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649170175223,
+        "stop" : 1649170175223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d292553850b41622",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/d292553850b41622",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fba61f4efb0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649167885456,
+        "stop" : 1649167885456,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "597602b233a670ff",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/10//#testresult/597602b233a670ff",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b1269f0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649166993384,
+        "stop" : 1649166993384,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb23e78f8c357246",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/9//#testresult/eb23e78f8c357246",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f04e8306fb0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649166018724,
+        "stop" : 1649166018724,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a42ce630d08e7e9a",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/20//#testresult/a42ce630d08e7e9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649165667142,
+        "stop" : 1649165667756,
+        "duration" : 614
+      }
+    }, {
       "uid" : "e87c4f3c4cd0a787",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/19//#testresult/e87c4f3c4cd0a787",
       "status" : "passed",
@@ -500,93 +583,98 @@
         "stop" : 1649107867710,
         "duration" : 640
       }
-    }, {
-      "uid" : "b61390b1999cb316",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/9//#testresult/b61390b1999cb316",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649107517690,
-        "stop" : 1649107518405,
-        "duration" : 715
-      }
-    }, {
-      "uid" : "c1be31e5e765426",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/8//#testresult/c1be31e5e765426",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x56466e658ad3 <unknown>\n#1 0x56466e3b8568 <unknown>\n#2 0x56466e3dbb37 <unknown>\n#3 0x56466e3d723a <unknown>\n#4 0x56466e4122ba <unknown>\n#5 0x56466e40c4e3 <unknown>\n#6 0x56466e3e1d1a <unknown>\n#7 0x56466e3e2e75 <unknown>\n#8 0x56466e686efd <unknown>\n#9 0x56466e6a019b <unknown>\n#10 0x56466e688c65 <unknown>\n#11 0x56466e6a0ec8 <unknown>\n#12 0x56466e67c360 <unknown>\n#13 0x56466e6bca68 <unknown>\n#14 0x56466e6bcbe8 <unknown>\n#15 0x56466e6d67fd <unknown>\n#16 0x7fe28fe92609 <unknown>",
-      "time" : {
-        "start" : 1649107303228,
-        "stop" : 1649107303228,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "11fd7c29fdaadffd",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/7//#testresult/11fd7c29fdaadffd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106455329,
-        "stop" : 1649106456115,
-        "duration" : 786
-      }
-    }, {
-      "uid" : "a64cee9db9906ff8",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/6//#testresult/a64cee9db9906ff8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106440114,
-        "stop" : 1649106440812,
-        "duration" : 698
-      }
-    }, {
-      "uid" : "c097bb6db4eafbc5",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/5//#testresult/c097bb6db4eafbc5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106387398,
-        "stop" : 1649106388604,
-        "duration" : 1206
-      }
-    }, {
-      "uid" : "89b2b62a7549ec0a",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/4//#testresult/89b2b62a7549ec0a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649105937397,
-        "stop" : 1649105940554,
-        "duration" : 3157
-      }
-    }, {
-      "uid" : "5a9c3516514d41c6",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/3//#testresult/5a9c3516514d41c6",
-      "status" : "broken",
-      "statusDetails" : "NameError: name 'webdriver' is not defined",
-      "time" : {
-        "start" : 1649105743277,
-        "stop" : 1649105743277,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "26d52a3fe7e0b272",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/2//#testresult/26d52a3fe7e0b272",
-      "status" : "broken",
-      "statusDetails" : "ValueError: no option named '--host'",
-      "time" : {
-        "start" : 1649105573008,
-        "stop" : 1649105573008,
-        "duration" : 0
-      }
     } ]
   },
   "65fd2b4dfcf9c1e5ba26298719a99a88" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 8,
+      "failed" : 2,
+      "broken" : 15,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 20
+      "total" : 28
     },
     "items" : [ {
+      "uid" : "eea038cfe62ec367",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/19//#testresult/eea038cfe62ec367",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f65b9b15de0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173716768,
+        "stop" : 1649173716768,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "edf879c1c060081a",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/18//#testresult/edf879c1c060081a",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfa4d65de0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649173131329,
+        "stop" : 1649173131329,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3d399bfcbf8242fa",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/15//#testresult/3d399bfcbf8242fa",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f148011db70>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649172350635,
+        "stop" : 1649172350635,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8a7e0f624f3b0c11",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/13//#testresult/8a7e0f624f3b0c11",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb217c32650>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649170175375,
+        "stop" : 1649170175375,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e24558da938d92ef",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/11//#testresult/e24558da938d92ef",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fba61fb9de0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649167885663,
+        "stop" : 1649167885663,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ea2244b7a9feaa26",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/10//#testresult/ea2244b7a9feaa26",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b12635b70>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649166993570,
+        "stop" : 1649166993570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "257170fd0a3a80cf",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/9//#testresult/257170fd0a3a80cf",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f04e82d5de0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649166019066,
+        "stop" : 1649166019066,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d80904073a735cc",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/20//#testresult/1d80904073a735cc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1649165668388,
+        "stop" : 1649165669100,
+        "duration" : 712
+      }
+    }, {
       "uid" : "22cc18f00a1cf0ae",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/19//#testresult/22cc18f00a1cf0ae",
       "status" : "failed",
@@ -699,81 +787,6 @@
         "start" : 1649107864601,
         "stop" : 1649107865197,
         "duration" : 596
-      }
-    }, {
-      "uid" : "985d8dac4423834b",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/9//#testresult/985d8dac4423834b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649107514593,
-        "stop" : 1649107515358,
-        "duration" : 765
-      }
-    }, {
-      "uid" : "90364937b93ecdd9",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/8//#testresult/90364937b93ecdd9",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x559891f03ad3 <unknown>\n#1 0x559891c63568 <unknown>\n#2 0x559891c86b37 <unknown>\n#3 0x559891c8223a <unknown>\n#4 0x559891cbd2ba <unknown>\n#5 0x559891cb74e3 <unknown>\n#6 0x559891c8cd1a <unknown>\n#7 0x559891c8de75 <unknown>\n#8 0x559891f31efd <unknown>\n#9 0x559891f4b19b <unknown>\n#10 0x559891f33c65 <unknown>\n#11 0x559891f4bec8 <unknown>\n#12 0x559891f27360 <unknown>\n#13 0x559891f67a68 <unknown>\n#14 0x559891f67be8 <unknown>\n#15 0x559891f817fd <unknown>\n#16 0x7fabf5d65609 <unknown>",
-      "time" : {
-        "start" : 1649107300763,
-        "stop" : 1649107300763,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "2eef5f1610afdbd1",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/7//#testresult/2eef5f1610afdbd1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106452311,
-        "stop" : 1649106453097,
-        "duration" : 786
-      }
-    }, {
-      "uid" : "17ba9ec2f1b1e3fc",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/6//#testresult/17ba9ec2f1b1e3fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106437452,
-        "stop" : 1649106438131,
-        "duration" : 679
-      }
-    }, {
-      "uid" : "c5d7fcbade183839",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/5//#testresult/c5d7fcbade183839",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649106384201,
-        "stop" : 1649106384935,
-        "duration" : 734
-      }
-    }, {
-      "uid" : "e986e97d201592be",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/4//#testresult/e986e97d201592be",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649105934700,
-        "stop" : 1649105935434,
-        "duration" : 734
-      }
-    }, {
-      "uid" : "e28ca54c453a945b",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/3//#testresult/e28ca54c453a945b",
-      "status" : "broken",
-      "statusDetails" : "NameError: name 'webdriver' is not defined",
-      "time" : {
-        "start" : 1649105743161,
-        "stop" : 1649105743161,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "92d52fe764934efa",
-      "reportUrl" : "https://rupu1906.github.io/docker-selenium/2//#testresult/92d52fe764934efa",
-      "status" : "broken",
-      "statusDetails" : "ValueError: no option named '--host'",
-      "time" : {
-        "start" : 1649105572847,
-        "stop" : 1649105572847,
-        "duration" : 0
       }
     } ]
   }
