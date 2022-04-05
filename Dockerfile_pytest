@@ -8,6 +8,6 @@ RUN python3.10 -m venv venv
 COPY requirements.txt requirements.txt
 COPY . .
 RUN pip3 install -r requirements.txt
-ENTRYPOINT ["exec","/bin/bash"]
+ENTRYPOINT ["exec","bash"]
 CMD ["python","-m","pytest","tests/","--alluredir=allure-results","--host","chrome","--remote"]
 
