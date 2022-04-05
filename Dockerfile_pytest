@@ -1,12 +1,10 @@
 FROM python:3.10
 
-
+RUN python -m pip install --upgrade pip
 WORKDIR /TESTING/
 
 RUN python3.10 -m venv venv 
-RUN  .\venv\bin\activate
-
-RUN python -m pip install --upgrade pip
+RUN  . venv/bin/activate
 
 COPY requirements.txt requirements.txt
 
