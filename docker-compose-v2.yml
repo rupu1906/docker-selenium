@@ -18,3 +18,7 @@ services:
     volumes:
       - ./reports:/TESTING/reports
     tty: true
+    stdin_open: true
+    entrypoint: /bin/bash
+    environment:
+      - PYTHONPATH=./TESTING
