@@ -2,8 +2,7 @@ name: Integration Tests
 
 on:
   push:
-    branches: 
-      - main
+    branches: [master]
 
 jobs:
   parallel-tests:
@@ -21,7 +20,7 @@ jobs:
       - name: Remove docker container
         run: |
           docker-compose rm -f
-          docker system prune    
+          docker system prune -f 
         
       - name: Get Allure history
         uses: actions/checkout@v2
