@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.ui.test_search",
+    "children" : [ {
+      "name" : "Home page - smoke test",
+      "uid" : "b99cf69d7d6efac7",
+      "parentUid" : "2a2aadcc42951e28a1de83bb255863c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649165665784,
+        "stop" : 1649165666438,
+        "duration" : 654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Home page - smoke test",
+      "uid" : "a42ce630d08e7e9a",
+      "parentUid" : "2a2aadcc42951e28a1de83bb255863c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649165667142,
+        "stop" : 1649165667756,
+        "duration" : 614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Home page - smoke test",
+      "uid" : "1d80904073a735cc",
+      "parentUid" : "2a2aadcc42951e28a1de83bb255863c6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1649165668388,
+        "stop" : 1649165669100,
+        "duration" : 712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.ui.test_search"
+  } ],
+  "name" : "packages"
+}

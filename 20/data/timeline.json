@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az292-638",
+    "children" : [ {
+      "name" : "3469-MainThread",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "a42ce630d08e7e9a",
+        "parentUid" : "15049ee63651d6313761066020d82265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649165667142,
+          "stop" : 1649165667756,
+          "duration" : 614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Home page - smoke test",
+        "uid" : "1d80904073a735cc",
+        "parentUid" : "15049ee63651d6313761066020d82265",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649165668388,
+          "stop" : 1649165669100,
+          "duration" : 712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Home page - smoke test",
+        "uid" : "b99cf69d7d6efac7",
+        "parentUid" : "15049ee63651d6313761066020d82265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649165665784,
+          "stop" : 1649165666438,
+          "duration" : 654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15049ee63651d6313761066020d82265"
+    } ],
+    "uid" : "77e8f37db91909e99b79c9bdf4c2eae1"
+  } ],
+  "name" : "timeline"
+}
