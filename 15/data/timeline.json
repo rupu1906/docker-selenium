@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "d9ab5498e14c",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "e0cb9def87b0cf4f",
+        "parentUid" : "72bdcc08d65970724969ee6551209c00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649172350467,
+          "stop" : 1649172350467,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Home page - smoke test",
+        "uid" : "4672f4fbbebe6a39",
+        "parentUid" : "72bdcc08d65970724969ee6551209c00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649172350238,
+          "stop" : 1649172350238,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Home page - smoke test",
+        "uid" : "3d399bfcbf8242fa",
+        "parentUid" : "72bdcc08d65970724969ee6551209c00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649172350635,
+          "stop" : 1649172350635,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72bdcc08d65970724969ee6551209c00"
+    } ],
+    "uid" : "c4c55b8a4cfa58906b69a6c76450e0a2"
+  } ],
+  "name" : "timeline"
+}
