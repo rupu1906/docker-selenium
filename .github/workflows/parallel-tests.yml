@@ -2,11 +2,8 @@ name: Integration Tests
 
 on:
   push:
-  pull_request:
-    branches: 
+    branches:
       - main
-  workflow_dispatch:
-  
   
 jobs:
   parallel-tests:
