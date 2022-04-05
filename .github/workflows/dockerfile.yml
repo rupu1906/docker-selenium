@@ -41,4 +41,8 @@ jobs:
           
       
       - name: Deploy to GitHub Pages
-        run: docker system prune -f
+        run: |
+          docker run --rm pytest
+          docker run --rm chrome
+          docker system prune -f
+          docker image prune -f
