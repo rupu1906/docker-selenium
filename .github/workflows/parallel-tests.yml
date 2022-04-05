@@ -44,4 +44,5 @@ jobs:
         with:
           branch: gh-pages
           folder: allure-history
-
+      - name: Delete docker containers
+        run: docker system prune -f
