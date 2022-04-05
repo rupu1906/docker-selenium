@@ -2,13 +2,23 @@
   "0e03a480debcb54dd0ad4bed14f612d2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "44264753d782984",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/7//#testresult/44264753d782984",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f69c035a5f0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649165599608,
+        "stop" : 1649165599608,
+        "duration" : 0
+      }
+    }, {
       "uid" : "c2f1ec86a1090425",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/6//#testresult/c2f1ec86a1090425",
       "status" : "broken",
@@ -362,13 +372,23 @@
   "b2e57dac307fb5f5a232440dbae3faf9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "797e8845e1eb9d18",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/7//#testresult/797e8845e1eb9d18",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f69bdb96140>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649165599849,
+        "stop" : 1649165599849,
+        "duration" : 0
+      }
+    }, {
       "uid" : "da9698e7d252f701",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/6//#testresult/da9698e7d252f701",
       "status" : "broken",
@@ -542,13 +562,23 @@
   "65fd2b4dfcf9c1e5ba26298719a99a88" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "3864d48949a32a4b",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/7//#testresult/3864d48949a32a4b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f69c00f5c00>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "time" : {
+        "start" : 1649165600036,
+        "stop" : 1649165600036,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2df502601f9bbcec",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/6//#testresult/2df502601f9bbcec",
       "status" : "broken",
