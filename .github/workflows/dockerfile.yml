@@ -23,7 +23,7 @@ jobs:
         env:
           COMPOSE_INTERACTIVE_NO_CLI: 1
         run: |
-          docker-compose -f "docker-compose-v2.yml" exec pytest bash
+          docker compose -f "docker-compose-v2.yml" exec pytest bash
           python -m pytest tests —host “chrome” —remote --alluredir=allure-reports
 
         
