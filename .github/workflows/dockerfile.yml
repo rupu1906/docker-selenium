@@ -17,14 +17,16 @@ jobs:
  
       - name: Check running containers
         run: docker-compose ps -a
-      - name: Check logs
-        run: docker-compose logs chrome
+
       - name: Test with pytest
         env:
           COMPOSE_INTERACTIVE_NO_CLI: 1
-        run: |
-          docker compose -f "docker-compose-v2.yml" exec pytest bash
-          python -m pytest tests —host “chrome” —remote --alluredir=allure-reports
+        run: docker compose -f "docker-compose-v2.yml" exec pytest bash
+          
+      - name: Test with pytest
+        env:
+          COMPOSE_INTERACTIVE_NO_CLI: 1
+        run: python3 -m pytest tests —host “chrome” —remote --alluredir=allure-reports
 
         
       - name: Get Allure history
