@@ -60,7 +60,7 @@ tomli==2.0.1
 tox==3.24.5
 trio==0.19.0
 trio-websocket==0.9.2
-urllib3==1.24.3
+urllib3==1.26.8
 virtualenv==20.13.1
 webdriver-manager==3.5.2
 wsproto==1.0.0
