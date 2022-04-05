@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f43b04448b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "e29f31b8eb632bfe",
+        "parentUid" : "d7d56c7e03e5250a09a08d21a5a72dae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649193829046,
+          "stop" : 1649193829046,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7d56c7e03e5250a09a08d21a5a72dae"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f43aeeb3d60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "fb43eb6fa9e194cd",
+        "parentUid" : "8e894b1ec3c23e6b7d29b7a145b89cc8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649193829321,
+          "stop" : 1649193829321,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e894b1ec3c23e6b7d29b7a145b89cc8"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f43aff65c00>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "3c03ebe525b29cad",
+        "parentUid" : "d369a8bb900e8ae1ab518191da4fc287",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649193829522,
+          "stop" : 1649193829522,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d369a8bb900e8ae1ab518191da4fc287"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f43ada42170>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "671ec5eee2bb2384",
+        "parentUid" : "08df5f8edb0e14ea1c8cc31aaf341cb9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649193829742,
+          "stop" : 1649193829742,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08df5f8edb0e14ea1c8cc31aaf341cb9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
