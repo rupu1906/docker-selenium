@@ -17,7 +17,10 @@ jobs:
 
       - name: Create docker container
         run: docker compose -f "docker-compose-v2.yml" up -d
-     
+      
+      - name: Remove docker container
+        run: docker-compose rm -f
+        
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
