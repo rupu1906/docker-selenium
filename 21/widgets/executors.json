@@ -1,10 +1,1 @@
-[ {
-  "name" : "GitHub Actions",
-  "type" : "github",
-  "url" : "https://rupu1906.github.io/docker-selenium",
-  "buildOrder" : 21,
-  "buildName" : "GitHub Actions Run #2097387917",
-  "buildUrl" : "https://github.com/rupu1906/docker-selenium/actions/runs/2097387917",
-  "reportName" : "Allure Report with history",
-  "reportUrl" : "https://rupu1906.github.io/docker-selenium/21/"
-} ]
+[ ]
