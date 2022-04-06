@@ -17,6 +17,11 @@ services:
     depends_on:
       - chrome    
     container_name: pytest
+    entrypoint: [ "python","-m",
+        "pytest","tests","--alluredir=allure-reports",
+        "--remote", "--host=chrome"
+    ]    
+  
     volumes:
       - ./allure-results:/TESTING/allure-results
     tty: true
