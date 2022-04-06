@@ -11,4 +11,4 @@ COPY . .
 RUN pip3 install -r requirements.txt
 
 
-ENTRYPOINT ["python","-m","pytest","tests/","--alluredir=reports","--host","chrome","--remote"]
+ENTRYPOINT ["python","-m","pytest","tests/","--alluredir=allure-results","--host","chrome","--remote"]
