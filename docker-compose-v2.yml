@@ -18,5 +18,5 @@ services:
       - chrome    
     container_name: pytest
     volumes:
-      - ./reports:/TESTING/reports
+      - ./allure-results:/TESTING/allure-results
     tty: true
