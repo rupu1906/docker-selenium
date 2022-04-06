@@ -18,6 +18,7 @@ services:
     entrypoint: [
         "python","-m","pytest",
         "--remote", "--host=chrome", "-port=4444","--alluredir=reports"
-    ]    volumes:
+    ]    
+    volumes:
       - ./reports:/TESTING/reports
     tty: true
