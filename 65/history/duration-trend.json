@@ -1,4 +1,35 @@
 [ {
+  "buildOrder" : 65,
+  "reportUrl" : "https://rupu1906.github.io/docker-selenium/65/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 64,
+  "reportUrl" : "https://rupu1906.github.io/docker-selenium/64/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 27,
+  "reportUrl" : "https://rupu1906.github.io/docker-selenium/27/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 4346
+  }
+}, {
+  "buildOrder" : 26,
+  "reportUrl" : "https://rupu1906.github.io/docker-selenium/26/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 5856
+  }
+}, {
+  "buildOrder" : 25,
+  "reportUrl" : "https://rupu1906.github.io/docker-selenium/25/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 5642
+  }
+}, {
   "buildOrder" : 24,
   "reportUrl" : "https://rupu1906.github.io/docker-selenium/24/",
   "reportName" : "Allure Report with history",
@@ -79,13 +110,4 @@
   "data" : {
     "duration" : 465
   }
-}, {
-  "buildOrder" : 38,
-  "reportUrl" : "https://rupu1906.github.io/docker-selenium/38/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 809
-  }
-}, {
-  "data" : { }
 } ]
