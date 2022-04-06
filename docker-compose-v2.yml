@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 
 services:
   chrome:
@@ -15,12 +15,6 @@ services:
     build: 
       context: ./
       dockerfile: Dockerfile_pytest
-    depends_on:
-      - chrome
-    entrypoint: [
-        "./wait-for-it.sh", "-t", "15", "pytest",
-        "--remote", "--host=chrome", "--port=4444"
-    ]  
     volumes:
       - ./allure-results:/TESTING/allure-results
     tty: true
