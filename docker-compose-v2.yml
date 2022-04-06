@@ -19,6 +19,7 @@ services:
         "pytest",
         "--remote",
         "--browser=firefox",
+        "--alluredir=allure-results",
         "--host=selenium-hub",
         "--port=4444",
       ]
@@ -60,13 +61,3 @@ services:
 networks:
   selenium_net:
     driver: bridge
-
-
-  pytest:
-    container_name: pytest
-    build: 
-      context: ./
-      dockerfile: Dockerfile_pytest
-    volumes:
-      - ./allure-results:/TESTING/allure-results
-    tty: true
