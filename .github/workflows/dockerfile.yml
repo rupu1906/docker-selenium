@@ -3,7 +3,8 @@ name: Integration Tests
 on:
   push:
     branches: 
-      - main
+      - master
+      
 
 jobs:
   Integration-tests:
