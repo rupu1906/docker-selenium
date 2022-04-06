@@ -11,17 +11,16 @@ services:
       - "5900:5900"
 
   pytest:
-    build:
+    container_name: pytest
+    build: 
       context: ./
       dockerfile: Dockerfile_pytest
     depends_on:
-      - chrome    
-    container_name: pytest
-    entrypoint: [ "python","-m",
-        "pytest","tests","--alluredir=allure-reports",
-        "--remote", "--host=chrome"
-    ]    
-  
+      - chrome
+    entrypoint: [
+        "./wait-for-it.sh", "-t", "15", "pytest",
+        "--remote", "--host=chrome", "--port=4444"
+    ]  
     volumes:
       - ./allure-results:/TESTING/allure-results
     tty: true
