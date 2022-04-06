@@ -18,6 +18,7 @@ services:
         "--",
         "pytest",
         "--remote",
+        "--browser=firefox",
         "--host=selenium-hub",
         "--port=4444",
       ]
