@@ -11,11 +11,12 @@ services:
       - selenium-firefox
     entrypoint:
       [
-        "./wait-for-it.sh",
-        "-t",
-        "15",
-        "selenium-firefox:5555",
-        "--","python","-m",
+#         "./wait-for-it.sh",
+#         "-t",
+#         "15",
+#         "selenium-firefox:5555",
+#         "--",
+        "python","-m",
         "pytest",
         "--remote",
         "--browser=firefox",
