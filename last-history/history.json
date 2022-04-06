@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "1b666568ea3f07f2",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/25//#testresult/1b666568ea3f07f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270432088,
+        "stop" : 1649270432825,
+        "duration" : 737
+      }
+    }, {
       "uid" : "5f464444954c2410",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/24//#testresult/5f464444954c2410",
       "status" : "passed",
@@ -54,11 +63,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a6f56feae015ec53",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/25//#testresult/a6f56feae015ec53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270435328,
+        "stop" : 1649270436094,
+        "duration" : 766
+      }
+    }, {
       "uid" : "2e50eafc05423496",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/24//#testresult/2e50eafc05423496",
       "status" : "passed",
@@ -104,11 +122,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a767740607a08e7e",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/25//#testresult/a767740607a08e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270433719,
+        "stop" : 1649270434504,
+        "duration" : 785
+      }
+    }, {
       "uid" : "503b0ac0b4199d53",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/24//#testresult/503b0ac0b4199d53",
       "status" : "passed",
@@ -154,11 +181,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "1f2c22656d30697f",
+      "reportUrl" : "https://rupu1906.github.io/docker-selenium/25//#testresult/1f2c22656d30697f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270430452,
+        "stop" : 1649270431304,
+        "duration" : 852
+      }
+    }, {
       "uid" : "869969a1085ac38",
       "reportUrl" : "https://rupu1906.github.io/docker-selenium/24//#testresult/869969a1085ac38",
       "status" : "passed",
