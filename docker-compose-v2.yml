@@ -15,6 +15,9 @@ services:
       context: ./
       dockerfile: Dockerfile_pytest
     container_name: pytest
-    volumes:
+    entrypoint: [
+        "python","-m","pytest",
+        "--remote", "--host=chrome", "-port=4444","--alluredir=reports"
+    ]    volumes:
       - ./reports:/TESTING/reports
     tty: true
