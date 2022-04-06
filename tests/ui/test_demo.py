@@ -1,6 +1,4 @@
-from src.PracticeTests.utils.logger import logger
-
-
+from src.PracticeTests.base.web_base import WebBaseClass
 
 
 class TestWeb(WebBaseClass):
