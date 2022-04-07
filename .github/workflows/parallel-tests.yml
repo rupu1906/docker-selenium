@@ -2,7 +2,7 @@ name: Integration Tests
 
 on:
   push:
-    branches: [master] 
+    branches: [main] 
   
 jobs:
   parallel-tests:
@@ -45,4 +45,6 @@ jobs:
           branch: gh-pages
           folder: allure-history
       - name: Delete docker containers
-        run: docker system prune -f
+        run: |
+          docker compose down
+          docker system prune -f
