@@ -15,7 +15,6 @@ jobs:
         run: docker compose -f "docker-compose-v2.yml" up -d --build
         continue-on-error: true
         
-        
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
@@ -39,5 +38,5 @@ jobs:
           
       
       - name: Delete container
-        run: docker system prune -f
+        run: docker system prune -f --volumes
          
