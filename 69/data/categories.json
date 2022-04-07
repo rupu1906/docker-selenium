@@ -1,0 +1,145 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1015370df0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title",
+        "uid" : "6efac310023dca35",
+        "parentUid" : "e23469aca14662bef84e5a54819d20a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358090182,
+          "stop" : 1649358090182,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e23469aca14662bef84e5a54819d20a8"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1014c9a440>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title1",
+        "uid" : "e796c024f626c3ae",
+        "parentUid" : "32f9ccd7349e66af08cf2fc3963b0f2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358090475,
+          "stop" : 1649358090475,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32f9ccd7349e66af08cf2fc3963b0f2c"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10137b6e90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title12",
+        "uid" : "ed077f122448031f",
+        "parentUid" : "78c4b8542928c45cdea8874390eec1a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358090797,
+          "stop" : 1649358090797,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78c4b8542928c45cdea8874390eec1a9"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f101372d420>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title13",
+        "uid" : "dcd75032b100626f",
+        "parentUid" : "9d99a6000a8e4aef73816d7344efa620",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358091077,
+          "stop" : 1649358091077,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d99a6000a8e4aef73816d7344efa620"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10137556c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "28af59092fddb6d0",
+        "parentUid" : "fad33945d310ec4b5e71d8c0e458cd7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358091421,
+          "stop" : 1649358091421,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fad33945d310ec4b5e71d8c0e458cd7c"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1014e373d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "8b74a970547f0894",
+        "parentUid" : "9f477d1ecfb5c0163de1a23f709d4b59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358091675,
+          "stop" : 1649358091675,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f477d1ecfb5c0163de1a23f709d4b59"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1015373670>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "3507cc4023d71f6d",
+        "parentUid" : "17975dc5480530a19bea932de8242865",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358091976,
+          "stop" : 1649358091976,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17975dc5480530a19bea932de8242865"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10157f5b10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "afcc19d6b924915e",
+        "parentUid" : "370bfa18708fa83cbd12eec8dc2132a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649358092292,
+          "stop" : 1649358092292,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "370bfa18708fa83cbd12eec8dc2132a4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

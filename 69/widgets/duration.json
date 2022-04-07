@@ -1,0 +1,81 @@
+[ {
+  "uid" : "afcc19d6b924915e",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649358092292,
+    "stop" : 1649358092292,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b74a970547f0894",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649358091675,
+    "stop" : 1649358091675,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed077f122448031f",
+  "name" : "test_homepage_title12",
+  "time" : {
+    "start" : 1649358090797,
+    "stop" : 1649358090797,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "28af59092fddb6d0",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649358091421,
+    "stop" : 1649358091421,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3507cc4023d71f6d",
+  "name" : "Home page - smoke test",
+  "time" : {
+    "start" : 1649358091976,
+    "stop" : 1649358091976,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e796c024f626c3ae",
+  "name" : "test_homepage_title1",
+  "time" : {
+    "start" : 1649358090475,
+    "stop" : 1649358090475,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dcd75032b100626f",
+  "name" : "test_homepage_title13",
+  "time" : {
+    "start" : 1649358091077,
+    "stop" : 1649358091077,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6efac310023dca35",
+  "name" : "test_homepage_title",
+  "time" : {
+    "start" : 1649358090182,
+    "stop" : 1649358090182,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
