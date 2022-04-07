@@ -3,7 +3,7 @@
 #RUN curl https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh > wait-for-it.sh
 FROM python:3.10
 
-WORKDIR /INTERNATIONAL-TESTING/
+WORKDIR /TESTING/
 RUN python -m pip install --upgrade pip
 
 
@@ -14,3 +14,4 @@ RUN pip3 install -r requirements.txt
 #COPY --from=curl wait-for-it.sh wait-for-it.sh
 #RUN chmod +x wait-for-it.sh
 
+CMD ["python","-m","pytest","tests/","--alluredir=allure-results","--host","chrome","--remote", "--browser=chrome"]
