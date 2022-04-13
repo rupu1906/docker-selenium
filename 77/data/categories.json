@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2a12351b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title",
+        "uid" : "29b97da4bb8c87a5",
+        "parentUid" : "c42314c817677766dfe87d9c9f544c29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649882933373,
+          "stop" : 1649882933373,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c42314c817677766dfe87d9c9f544c29"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2a0b2e440>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title1",
+        "uid" : "a3407df14ed228c2",
+        "parentUid" : "71b64693e3de41b881c1f10f4cfc08c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649882933597,
+          "stop" : 1649882933597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71b64693e3de41b881c1f10f4cfc08c7"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff29f50acb0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title12",
+        "uid" : "cd19ac967f3c0303",
+        "parentUid" : "116f5f7ea4700d86b0de922012c3d621",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649882933770,
+          "stop" : 1649882933770,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "116f5f7ea4700d86b0de922012c3d621"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2a0c76f50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "test_homepage_title13",
+        "uid" : "9d6cede9fcf6077d",
+        "parentUid" : "3f756c49c1a0207fd606575cd68e1e17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649882933921,
+          "stop" : 1649882933921,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f756c49c1a0207fd606575cd68e1e17"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff29f67b940>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "69637cb64a0b94d7",
+        "parentUid" : "083819acb1c4ac16e100ef2cb2664e2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649882934083,
+          "stop" : 1649882934083,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "083819acb1c4ac16e100ef2cb2664e2c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
