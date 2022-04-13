@@ -24,7 +24,7 @@ run-only-web-tests:
 tests-cleanup:
 	@echo Containers used for the project will be removed now.
 	@docker container stop "pytest"
-	@docker compose down && docker system prune -a -f --volumes
+	@docker compose down && docker system prune -f --volumes
 	@echo All unused containers are removed.
 
 run-all-tests-and-clean:run-all-tests tests-cleanup
