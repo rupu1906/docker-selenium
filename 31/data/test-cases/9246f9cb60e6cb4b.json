@@ -1,0 +1,149 @@
+{
+  "uid" : "9246f9cb60e6cb4b",
+  "name" : "test_homepage_title1",
+  "fullName" : "tests.ui.test_demo.TestWeb#test_homepage_title1",
+  "historyId" : "18773396885e1235c81346d5f15e998f",
+  "time" : {
+    "start" : 1649883251993,
+    "stop" : 1649883252672,
+    "duration" : 679
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1649883251466,
+      "stop" : 1649883251992,
+      "duration" : 526
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649883249493,
+      "stop" : 1649883249551,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1649883251465,
+      "stop" : 1649883251465,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "web_setup::0",
+    "time" : {
+      "start" : 1649883252672,
+      "stop" : 1649883252758,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az290-526"
+  }, {
+    "name" : "thread",
+    "value" : "3506-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "49b80faf39425263",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/30//#testresult/49b80faf39425263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649883165766,
+          "stop" : 1649883166470,
+          "duration" : 704
+        }
+      }, {
+        "uid" : "a3407df14ed228c2",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/77//#testresult/a3407df14ed228c2",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2a0b2e440>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+        "time" : {
+          "start" : 1649882933597,
+          "stop" : 1649882933597,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "9246f9cb60e6cb4b.json",
+  "parameterValues" : [ ]
+}
