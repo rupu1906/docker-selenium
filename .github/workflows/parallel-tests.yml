@@ -47,4 +47,4 @@ jobs:
       - name: Delete docker containers
         run: |
           docker compose down
-          docker system prune -f
+          docker system prune -a -f --volumes
