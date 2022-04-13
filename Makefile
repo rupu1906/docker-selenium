@@ -11,7 +11,7 @@ help:
 run-all-tests:
 	@echo "Creating a docker-compose..."
 	@docker-compose -f "docker-compose-dockerfile.yml" up -d --build
-	@ - docker compose -f "docker-compose-dockerfile.yml" exec pytest bash -c "pytest tests --remote --host chrome  --alluredir=allure-results"
+	@ - docker compose -f "docker-compose-dockerfile.yml" exec pytest bash -c "python -m pytest tests --remote --host chrome  --alluredir=allure-results"
 	@echo "All tests are run."
 
 run-only-web-tests:
