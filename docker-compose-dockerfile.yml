@@ -15,7 +15,7 @@ services:
   pytest:
     build:
       context: ./
-      dockerfile: Dockerfile_pytest
+      dockerfile: Dockerfile
     container_name: pytest
     volumes:
       - ./allure-results:/TESTING/allure-results
