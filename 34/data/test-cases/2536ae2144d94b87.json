@@ -1,0 +1,157 @@
+{
+  "uid" : "2536ae2144d94b87",
+  "name" : "Home page - smoke test",
+  "fullName" : "tests.ui.test_search.TestWeb#test_homepage_title12",
+  "historyId" : "b2e57dac307fb5f5a232440dbae3faf9",
+  "time" : {
+    "start" : 1650643420331,
+    "stop" : 1650643420950,
+    "duration" : 619
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1650643419775,
+      "stop" : 1650643419775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1650643419775,
+      "stop" : 1650643420331,
+      "duration" : 556
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1650643410035,
+      "stop" : 1650643410103,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "web_setup::0",
+    "time" : {
+      "start" : 1650643420951,
+      "stop" : 1650643421067,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-865"
+  }, {
+    "name" : "thread",
+    "value" : "3479-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "8fa5241a1fd6f737",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/31//#testresult/8fa5241a1fd6f737",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649883258731,
+          "stop" : 1649883259423,
+          "duration" : 692
+        }
+      }, {
+        "uid" : "ef45cc17085f7cb0",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/30//#testresult/ef45cc17085f7cb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649883172423,
+          "stop" : 1649883173182,
+          "duration" : 759
+        }
+      }, {
+        "uid" : "431f4388b7cf5c27",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/77//#testresult/431f4388b7cf5c27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649882936051,
+          "stop" : 1649882936669,
+          "duration" : 618
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "2536ae2144d94b87.json",
+  "parameterValues" : [ ]
+}
