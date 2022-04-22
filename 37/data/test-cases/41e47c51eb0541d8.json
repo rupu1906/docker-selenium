@@ -1,0 +1,176 @@
+{
+  "uid" : "41e47c51eb0541d8",
+  "name" : "test_homepage_title12",
+  "fullName" : "tests.ui.test_demo.TestWeb#test_homepage_title12",
+  "historyId" : "e8da01fa517f1b4876d8ab0a78459a63",
+  "time" : {
+    "start" : 1650646344173,
+    "stop" : 1650646344854,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1650646339789,
+      "stop" : 1650646339855,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1650646343684,
+      "stop" : 1650646343685,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1650646343685,
+      "stop" : 1650646344172,
+      "duration" : 487
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "web_setup::0",
+    "time" : {
+      "start" : 1650646344855,
+      "stop" : 1650646344991,
+      "duration" : 136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-579"
+  }, {
+    "name" : "thread",
+    "value" : "3539-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "3393668299808179",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/36//#testresult/3393668299808179",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650645596982,
+          "stop" : 1650645597804,
+          "duration" : 822
+        }
+      }, {
+        "uid" : "e829de0758a3a0b1",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/34//#testresult/e829de0758a3a0b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650643414328,
+          "stop" : 1650643415067,
+          "duration" : 739
+        }
+      }, {
+        "uid" : "69f567985d927fbd",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/31//#testresult/69f567985d927fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649883253266,
+          "stop" : 1649883253939,
+          "duration" : 673
+        }
+      }, {
+        "uid" : "dde829f1f55b6f14",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/30//#testresult/dde829f1f55b6f14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649883167113,
+          "stop" : 1649883167722,
+          "duration" : 609
+        }
+      }, {
+        "uid" : "cd19ac967f3c0303",
+        "reportUrl" : "https://rupu1906.github.io/docker-selenium/77//#testresult/cd19ac967f3c0303",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='chrome', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff29f50acb0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+        "time" : {
+          "start" : 1649882933770,
+          "stop" : 1649882933770,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "41e47c51eb0541d8.json",
+  "parameterValues" : [ ]
+}
