@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "d4fa87c1bbf95c57",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650645599782,
+          "stop" : 1650645600375,
+          "duration" : 593
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d89788b03808d3beec6ddf8e7d75f3d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: Could not start a new session. New session request timed out\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: '77e49ab6e68e', ip: '172.18.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '11.0.13'\nDriver info: driver.version: unknown\nStacktrace:\n    at org.openqa.selenium.grid.sessionqueue.local.LocalNewSessionQueue.addToQueue (LocalNewSessionQueue.java:200)\n    at org.openqa.selenium.grid.sessionqueue.NewSessionQueue.lambda$new$0 (NewSessionQueue.java:68)\n    at org.openqa.selenium.remote.http.Route$TemplatizedRoute.handle (Route.java:192)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.grid.sessionqueue.NewSessionQueue.execute (NewSessionQueue.java:120)\n    at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler.execute (SpanWrappedHttpHandler.java:86)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.grid.router.Router.execute (Router.java:91)\n    at org.openqa.selenium.grid.web.EnsureSpecCompliantResponseHeaders.lambda$apply$0 (EnsureSpecCompliantResponseHeaders.java:34)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$NestedRoute.handle (Route.java:270)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.AddWebDriverSpecHeaders.lambda$apply$0 (AddWebDriverSpecHeaders.java:35)\n    at org.openqa.selenium.remote.ErrorFilter.lambda$apply$0 (ErrorFilter.java:44)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.ErrorFilter.lambda$apply$0 (ErrorFilter.java:44)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0 (SeleniumHandler.java:44)\n    at java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:515)\n    at java.util.concurrent.FutureTask.run (FutureTask.java:264)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1128)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:628)\n    at java.lang.Thread.run (Thread.java:829)",
+      "children" : [ {
+        "name" : "Home page - smoke test",
+        "uid" : "12fa87c910577c0c",
+        "parentUid" : "d963f0ba09cda666a5e95fe612552966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650645600437,
+          "stop" : 1650645600437,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d963f0ba09cda666a5e95fe612552966"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
